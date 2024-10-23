@@ -20,6 +20,6 @@ public class Particle {
 
     public void draw(PApplet window) {
         window.fill(0);
-        window.ellipse(pos.x, pos.y, size, size);
+        window.ellipse(300, 300, size, size);  // TODO:  CHANGE THIS!
     }
 }
